@@ -14,11 +14,13 @@ RDEPENDS:${PN} = " \
     audioreach-conf \
     audioreach-graphmgr \
     audioreach-graphservices \
+    tinyalsa \
 "
 RDEPENDS:${PN}:append:raspberrypi4 = " \
     audioreach-engine \
 "
 RDEPENDS:${PN}:append:qcom = " \
+    tinycompress \
     audioreach-audio-utils \
     audioreach-pal-headers \
     audioreach-pal \
