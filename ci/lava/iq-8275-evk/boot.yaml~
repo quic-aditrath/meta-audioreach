@@ -2,7 +2,7 @@ actions:
 - deploy:
     images:
       image:
-        headers:
+        headers:   
           Authentication: Q_GITHUB_TOKEN
         url: "{{BUILD_DOWNLOAD_URL}}"
     postprocess:
